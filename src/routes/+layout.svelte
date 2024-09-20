@@ -4,6 +4,8 @@ import "../app.css";
 </script>
 
 <div class="h-screen w-screen bg-slate-800">
-    <Navbar></Navbar>
-    <slot></slot>
-</div>
+    <div class="flex flex-col size-full">
+      <Navbar></Navbar>
+      <slot></slot>
+    </div>
+  </div>
